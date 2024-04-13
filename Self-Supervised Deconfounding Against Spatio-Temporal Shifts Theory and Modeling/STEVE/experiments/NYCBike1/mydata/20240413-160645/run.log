@@ -1,0 +1,643 @@
+2024-04-13 16:06:45: Experiment log path in: D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645
+2024-04-13 16:06:45: Experiment configs are: Namespace(seed=31, device='cuda:0', mode='train', best_path='None', debug=False, data_dir='D:\\SUSTECH\\Research\\GNN_for_OOD\\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\\STEVE\\STEVE\\data', dataset='NYCBike1/mydata', input_length=19, len_closeness=4, len_period=15, len_trend=0, batch_size=32, test_batch_size=64, graph_file='D:\\SUSTECH\\Research\\GNN_for_OOD\\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\\STEVE\\STEVE\\data/NYCBike1/adj_mx.npz', num_nodes=128, d_input=2, d_output=2, d_model=64, dropout=0.1, percent=0.1, shm_temp=0.5, nmb_prototype=50, yita=0.5, layers=3, epochs=200, lr_init=0.001, lr_mode='only', early_stop=True, early_stop_patience=50, grad_norm=True, max_grad_norm=5, use_dwa=True, temp=4, MMI=True, lr_patience=20, ablation='all', log_dir='D:\\SUSTECH\\Research\\GNN_for_OOD\\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\\STEVE\\STEVE\\experiments\\NYCBike1/mydata\\20240413-160645')
+2024-04-13 16:06:45: loss weights: [1. 1. 1.]
+2024-04-13 16:07:03: *******Train Epoch 1: averaged Loss : 18.232897
+2024-04-13 16:07:03: *******Val Epoch 1: averaged Loss : 10.569348 sep loss : [10.56934775  1.99706046  3.15395722]
+2024-04-13 16:07:03: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:07:03: loss weights: [1. 1. 1.]
+2024-04-13 16:07:18: *******Train Epoch 2: averaged Loss : 14.047582
+2024-04-13 16:07:19: *******Val Epoch 2: averaged Loss : 9.010354 sep loss : [9.01035448 1.03124582 3.0120118 ]
+2024-04-13 16:07:19: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:07:19: loss weights: [1.0107598 0.9343881 1.054852 ]
+2024-04-13 16:07:35: *******Train Epoch 3: averaged Loss : 13.006947
+2024-04-13 16:07:36: *******Val Epoch 3: averaged Loss : 8.364300 sep loss : [8.36429999 0.8622219  3.08217988]
+2024-04-13 16:07:36: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:07:36: loss weights: [1.0151407 0.9570974 1.0277619]
+2024-04-13 16:07:51: *******Train Epoch 4: averaged Loss : 12.635271
+2024-04-13 16:07:52: *******Val Epoch 4: averaged Loss : 8.413785 sep loss : [8.41378498 0.8028616  3.20054696]
+2024-04-13 16:07:52: loss weights: [0.9943537 0.9755863 1.0300598]
+2024-04-13 16:08:07: *******Train Epoch 5: averaged Loss : 11.841884
+2024-04-13 16:08:08: *******Val Epoch 5: averaged Loss : 7.557279 sep loss : [7.55727926 0.65423343 3.27153637]
+2024-04-13 16:08:08: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:08:08: loss weights: [1.0022281 0.9846966 1.0130751]
+2024-04-13 16:08:24: *******Train Epoch 6: averaged Loss : 11.448021
+2024-04-13 16:08:24: *******Val Epoch 6: averaged Loss : 7.388053 sep loss : [7.38805279 0.57868501 3.22267576]
+2024-04-13 16:08:24: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:08:24: loss weights: [1.0031286 0.9827082 1.0141635]
+2024-04-13 16:08:40: *******Train Epoch 7: averaged Loss : 11.245622
+2024-04-13 16:08:41: *******Val Epoch 7: averaged Loss : 7.222634 sep loss : [7.22263391 0.55011851 3.24370436]
+2024-04-13 16:08:41: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:08:41: loss weights: [1.00583    0.99071777 1.0034523 ]
+2024-04-13 16:08:56: *******Train Epoch 8: averaged Loss : 10.941810
+2024-04-13 16:08:57: *******Val Epoch 8: averaged Loss : 7.198403 sep loss : [7.19840266 0.4863483  3.39980549]
+2024-04-13 16:08:57: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:08:57: loss weights: [0.99856514 0.9851241  1.0163107 ]
+2024-04-13 16:09:12: *******Train Epoch 9: averaged Loss : 10.740703
+2024-04-13 16:09:13: *******Val Epoch 9: averaged Loss : 7.047508 sep loss : [7.04750817 0.47944478 3.24915482]
+2024-04-13 16:09:13: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:09:13: loss weights: [1.0049388 0.9868657 1.0081954]
+2024-04-13 16:09:28: *******Train Epoch 10: averaged Loss : 10.645755
+2024-04-13 16:09:29: *******Val Epoch 10: averaged Loss : 7.132625 sep loss : [7.13262496 0.46995032 3.24963155]
+2024-04-13 16:09:29: loss weights: [1.0036298 0.990425  1.0059454]
+2024-04-13 16:09:44: *******Train Epoch 11: averaged Loss : 10.536447
+2024-04-13 16:09:45: *******Val Epoch 11: averaged Loss : 7.048688 sep loss : [7.04868753 0.41625085 3.3253431 ]
+2024-04-13 16:09:45: loss weights: [1.0030122 0.9916096 1.0053782]
+2024-04-13 16:10:01: *******Train Epoch 12: averaged Loss : 10.381532
+2024-04-13 16:10:02: *******Val Epoch 12: averaged Loss : 6.874998 sep loss : [6.87499758 0.39462673 3.25003642]
+2024-04-13 16:10:02: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:10:02: loss weights: [1.0018661 0.9904629 1.007671 ]
+2024-04-13 16:10:17: *******Train Epoch 13: averaged Loss : 10.343153
+2024-04-13 16:10:18: *******Val Epoch 13: averaged Loss : 7.188097 sep loss : [7.1880966  0.38118232 3.28918861]
+2024-04-13 16:10:18: loss weights: [1.002806   0.99518013 1.0020142 ]
+2024-04-13 16:10:34: *******Train Epoch 14: averaged Loss : 10.296779
+2024-04-13 16:10:35: *******Val Epoch 14: averaged Loss : 6.633322 sep loss : [6.6333218  0.35361528 3.24727695]
+2024-04-13 16:10:35: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:10:35: loss weights: [1.0017167 0.9902771 1.0080062]
+2024-04-13 16:10:50: *******Train Epoch 15: averaged Loss : 10.146462
+2024-04-13 16:10:51: *******Val Epoch 15: averaged Loss : 6.587206 sep loss : [6.5872064  0.36113449 3.2071536 ]
+2024-04-13 16:10:51: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:10:51: loss weights: [1.00001   1.0011324 0.9988577]
+2024-04-13 16:11:07: *******Train Epoch 16: averaged Loss : 9.996630
+2024-04-13 16:11:08: *******Val Epoch 16: averaged Loss : 6.668615 sep loss : [6.66861523 0.36741569 3.56645582]
+2024-04-13 16:11:08: loss weights: [1.0004952  0.99151003 1.0079947 ]
+2024-04-13 16:11:24: *******Train Epoch 17: averaged Loss : 10.024421
+2024-04-13 16:11:25: *******Val Epoch 17: averaged Loss : 6.536197 sep loss : [6.5361966  0.33200482 3.27707639]
+2024-04-13 16:11:25: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:11:25: loss weights: [1.0010889  1.0003166  0.99859446]
+2024-04-13 16:11:40: *******Train Epoch 18: averaged Loss : 9.916958
+2024-04-13 16:11:41: *******Val Epoch 18: averaged Loss : 6.480061 sep loss : [6.48006113 0.35830578 3.28647603]
+2024-04-13 16:11:41: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:11:41: loss weights: [1.0054567  0.98336506 1.0111781 ]
+2024-04-13 16:11:57: *******Train Epoch 19: averaged Loss : 9.965781
+2024-04-13 16:11:58: *******Val Epoch 19: averaged Loss : 6.469686 sep loss : [6.46968621 0.33767045 3.23439703]
+2024-04-13 16:11:58: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:11:58: loss weights: [1.0002472 0.9990873 1.0006654]
+2024-04-13 16:12:13: *******Train Epoch 20: averaged Loss : 9.817621
+2024-04-13 16:12:14: *******Val Epoch 20: averaged Loss : 6.486844 sep loss : [6.48684425 0.31481152 3.29019464]
+2024-04-13 16:12:14: loss weights: [1.0000677  0.99775267 1.0021797 ]
+2024-04-13 16:12:30: *******Train Epoch 21: averaged Loss : 9.754549
+2024-04-13 16:12:31: *******Val Epoch 21: averaged Loss : 6.423456 sep loss : [6.42345594 0.3072296  3.25112152]
+2024-04-13 16:12:31: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:12:31: loss weights: [1.0008256 0.9961407 1.0030336]
+2024-04-13 16:12:47: *******Train Epoch 22: averaged Loss : 9.611117
+2024-04-13 16:12:48: *******Val Epoch 22: averaged Loss : 6.676721 sep loss : [6.67672128 0.31784753 3.07962981]
+2024-04-13 16:12:48: loss weights: [1.005723   0.99637073 0.9979062 ]
+2024-04-13 16:13:03: *******Train Epoch 23: averaged Loss : 9.700463
+2024-04-13 16:13:04: *******Val Epoch 23: averaged Loss : 6.380624 sep loss : [6.38062396 0.32807494 3.21517185]
+2024-04-13 16:13:04: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:13:04: loss weights: [0.998119   0.99867165 1.0032096 ]
+2024-04-13 16:13:20: *******Train Epoch 24: averaged Loss : 9.608103
+2024-04-13 16:13:21: *******Val Epoch 24: averaged Loss : 6.298979 sep loss : [6.29897917 0.29600167 3.27694227]
+2024-04-13 16:13:21: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:13:21: loss weights: [1.0050023  0.9963057  0.99869204]
+2024-04-13 16:13:37: *******Train Epoch 25: averaged Loss : 9.533587
+2024-04-13 16:13:38: *******Val Epoch 25: averaged Loss : 6.534607 sep loss : [6.53460737 0.30627621 3.24205831]
+2024-04-13 16:13:38: loss weights: [0.99906623 0.9916092  1.0093247 ]
+2024-04-13 16:13:53: *******Train Epoch 26: averaged Loss : 9.592641
+2024-04-13 16:13:54: *******Val Epoch 26: averaged Loss : 6.241906 sep loss : [6.2419058  0.28998457 3.25385143]
+2024-04-13 16:13:54: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:13:54: loss weights: [1.0043236 0.9945626 1.0011138]
+2024-04-13 16:14:10: *******Train Epoch 27: averaged Loss : 9.511517
+2024-04-13 16:14:11: *******Val Epoch 27: averaged Loss : 6.266235 sep loss : [6.26623473 0.28002653 3.09528589]
+2024-04-13 16:14:11: loss weights: [0.9963979 1.0026792 1.0009229]
+2024-04-13 16:14:27: *******Train Epoch 28: averaged Loss : 9.525594
+2024-04-13 16:14:28: *******Val Epoch 28: averaged Loss : 6.198287 sep loss : [6.19828719 0.28060244 3.26458271]
+2024-04-13 16:14:28: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:14:28: loss weights: [1.0060241  0.99066985 1.0033059 ]
+2024-04-13 16:14:43: *******Train Epoch 29: averaged Loss : 9.374569
+2024-04-13 16:14:44: *******Val Epoch 29: averaged Loss : 6.348305 sep loss : [6.34830457 0.31134176 3.07888845]
+2024-04-13 16:14:44: loss weights: [0.9946648 1.0048351 1.0005003]
+2024-04-13 16:15:00: *******Train Epoch 30: averaged Loss : 9.356683
+2024-04-13 16:15:01: *******Val Epoch 30: averaged Loss : 6.181484 sep loss : [6.18148353 0.29151776 3.26878694]
+2024-04-13 16:15:01: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:15:01: loss weights: [1.0021532  0.99966776 0.99817926]
+2024-04-13 16:15:16: *******Train Epoch 31: averaged Loss : 9.417375
+2024-04-13 16:15:17: *******Val Epoch 31: averaged Loss : 6.128495 sep loss : [6.12849478 0.28206128 3.25746709]
+2024-04-13 16:15:17: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:15:17: loss weights: [0.998215   0.99615407 1.0056309 ]
+2024-04-13 16:15:33: *******Train Epoch 32: averaged Loss : 9.389392
+2024-04-13 16:15:34: *******Val Epoch 32: averaged Loss : 6.158711 sep loss : [6.15871074 0.27260205 3.28129466]
+2024-04-13 16:15:34: loss weights: [1.0045326 0.9906883 1.0047792]
+2024-04-13 16:15:50: *******Train Epoch 33: averaged Loss : 9.393919
+2024-04-13 16:15:51: *******Val Epoch 33: averaged Loss : 6.255597 sep loss : [6.25559697 0.26981182 3.2016743 ]
+2024-04-13 16:15:51: loss weights: [1.0003257  0.99635744 1.0033169 ]
+2024-04-13 16:16:06: *******Train Epoch 34: averaged Loss : 9.302091
+2024-04-13 16:16:07: *******Val Epoch 34: averaged Loss : 6.082917 sep loss : [6.08291729 0.28575868 3.15269516]
+2024-04-13 16:16:07: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:16:07: loss weights: [0.99921274 1.0017066  0.99908066]
+2024-04-13 16:16:23: *******Train Epoch 35: averaged Loss : 9.172540
+2024-04-13 16:16:24: *******Val Epoch 35: averaged Loss : 6.026895 sep loss : [6.02689464 0.25097762 3.16556246]
+2024-04-13 16:16:24: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:16:24: loss weights: [1.0040954  0.98989916 1.0060054 ]
+2024-04-13 16:16:39: *******Train Epoch 36: averaged Loss : 9.160540
+2024-04-13 16:16:40: *******Val Epoch 36: averaged Loss : 6.093872 sep loss : [6.09387214 0.27008942 3.12653186]
+2024-04-13 16:16:40: loss weights: [1.001398   1.0004809  0.99812126]
+2024-04-13 16:16:55: *******Train Epoch 37: averaged Loss : 9.082520
+2024-04-13 16:16:56: *******Val Epoch 37: averaged Loss : 6.086850 sep loss : [6.08685024 0.29902484 3.32989166]
+2024-04-13 16:16:56: loss weights: [1.0027131  0.9990343  0.99825263]
+2024-04-13 16:17:12: *******Train Epoch 38: averaged Loss : 9.165866
+2024-04-13 16:17:13: *******Val Epoch 38: averaged Loss : 6.087548 sep loss : [6.08754811 0.29276103 3.19293633]
+2024-04-13 16:17:13: loss weights: [0.9990905  0.99542946 1.0054802 ]
+2024-04-13 16:17:28: *******Train Epoch 39: averaged Loss : 9.115756
+2024-04-13 16:17:29: *******Val Epoch 39: averaged Loss : 6.083384 sep loss : [6.08338444 0.29703651 3.27648676]
+2024-04-13 16:17:29: loss weights: [0.993919  1.0075678 0.998513 ]
+2024-04-13 16:17:45: *******Train Epoch 40: averaged Loss : 9.149557
+2024-04-13 16:17:46: *******Val Epoch 40: averaged Loss : 6.106141 sep loss : [6.10614072 0.2688409  3.26401766]
+2024-04-13 16:17:46: loss weights: [1.0040193 0.992092  1.003889 ]
+2024-04-13 16:18:01: *******Train Epoch 41: averaged Loss : 9.158506
+2024-04-13 16:18:02: *******Val Epoch 41: averaged Loss : 6.314932 sep loss : [6.31493224 0.27125762 3.26797311]
+2024-04-13 16:18:02: loss weights: [0.9990314 1.0004387 1.0005298]
+2024-04-13 16:18:18: *******Train Epoch 42: averaged Loss : 9.095579
+2024-04-13 16:18:19: *******Val Epoch 42: averaged Loss : 6.054309 sep loss : [6.05430852 0.29479107 3.27404083]
+2024-04-13 16:18:19: loss weights: [1.0041143 0.9898469 1.006039 ]
+2024-04-13 16:18:34: *******Train Epoch 43: averaged Loss : 9.156247
+2024-04-13 16:18:35: *******Val Epoch 43: averaged Loss : 6.138712 sep loss : [6.1387116  0.29974687 3.26390477]
+2024-04-13 16:18:35: loss weights: [0.9974947 1.0049659 0.9975395]
+2024-04-13 16:18:50: *******Train Epoch 44: averaged Loss : 9.048669
+2024-04-13 16:18:51: *******Val Epoch 44: averaged Loss : 6.191044 sep loss : [6.19104385 0.2847274  3.21595177]
+2024-04-13 16:18:51: loss weights: [1.0012883  0.99904007 0.99967134]
+2024-04-13 16:19:07: *******Train Epoch 45: averaged Loss : 9.018680
+2024-04-13 16:19:08: *******Val Epoch 45: averaged Loss : 6.174151 sep loss : [6.17415109 0.29256476 3.23934038]
+2024-04-13 16:19:08: loss weights: [1.0045006 0.9890002 1.006499 ]
+2024-04-13 16:19:23: *******Train Epoch 46: averaged Loss : 9.061369
+2024-04-13 16:19:24: *******Val Epoch 46: averaged Loss : 6.039056 sep loss : [6.0390559  0.2873859  3.26015856]
+2024-04-13 16:19:24: loss weights: [0.9987743 1.0023391 0.9988866]
+2024-04-13 16:19:40: *******Train Epoch 47: averaged Loss : 9.009893
+2024-04-13 16:19:41: *******Val Epoch 47: averaged Loss : 6.098995 sep loss : [6.09899462 0.2799113  3.2193749 ]
+2024-04-13 16:19:41: loss weights: [0.9976429  1.0045581  0.99779904]
+2024-04-13 16:19:56: *******Train Epoch 48: averaged Loss : 8.992768
+2024-04-13 16:19:57: *******Val Epoch 48: averaged Loss : 6.065014 sep loss : [6.06501414 0.28372599 3.23995143]
+2024-04-13 16:19:57: loss weights: [1.0030499  0.99321723 1.0037328 ]
+2024-04-13 16:20:13: *******Train Epoch 49: averaged Loss : 9.032319
+2024-04-13 16:20:14: *******Val Epoch 49: averaged Loss : 5.998163 sep loss : [5.99816253 0.30645685 3.26956243]
+2024-04-13 16:20:14: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:20:14: loss weights: [0.9960637 1.0070239 0.9969125]
+2024-04-13 16:20:30: *******Train Epoch 50: averaged Loss : 8.943082
+2024-04-13 16:20:31: *******Val Epoch 50: averaged Loss : 5.965219 sep loss : [5.96521913 0.26652738 3.2337406 ]
+2024-04-13 16:20:31: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:20:31: loss weights: [1.0071992  0.98328334 1.0095173 ]
+2024-04-13 16:20:47: *******Train Epoch 51: averaged Loss : 9.039056
+2024-04-13 16:20:48: *******Val Epoch 51: averaged Loss : 6.021627 sep loss : [6.02162702 0.26392128 3.24895222]
+2024-04-13 16:20:48: loss weights: [0.9999806  1.0021062  0.99791336]
+2024-04-13 16:21:04: *******Train Epoch 52: averaged Loss : 8.888566
+2024-04-13 16:21:05: *******Val Epoch 52: averaged Loss : 6.089298 sep loss : [6.08929788 0.26972323 3.26218908]
+2024-04-13 16:21:05: loss weights: [0.99492127 1.0090747  0.9960041 ]
+2024-04-13 16:21:21: *******Train Epoch 53: averaged Loss : 8.874183
+2024-04-13 16:21:22: *******Val Epoch 53: averaged Loss : 6.139411 sep loss : [6.13941134 0.2726077  3.26031694]
+2024-04-13 16:21:22: loss weights: [1.0026989  0.99356115 1.0037401 ]
+2024-04-13 16:21:38: *******Train Epoch 54: averaged Loss : 8.947912
+2024-04-13 16:21:39: *******Val Epoch 54: averaged Loss : 6.009804 sep loss : [6.00980403 0.26982826 3.1779212 ]
+2024-04-13 16:21:39: loss weights: [1.0037163 0.9935848 1.0026988]
+2024-04-13 16:21:57: *******Train Epoch 55: averaged Loss : 8.898502
+2024-04-13 16:21:58: *******Val Epoch 55: averaged Loss : 5.907814 sep loss : [5.90781392 0.26025276 3.24403776]
+2024-04-13 16:21:58: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:21:58: loss weights: [0.99619997 1.0072513  0.996549  ]
+2024-04-13 16:22:15: *******Train Epoch 56: averaged Loss : 8.816703
+2024-04-13 16:22:16: *******Val Epoch 56: averaged Loss : 5.960049 sep loss : [5.96004923 0.27180559 3.24814362]
+2024-04-13 16:22:16: loss weights: [1.0038    0.9908479 1.0053521]
+2024-04-13 16:22:34: *******Train Epoch 57: averaged Loss : 8.889090
+2024-04-13 16:22:35: *******Val Epoch 57: averaged Loss : 6.026686 sep loss : [6.02668582 0.29635177 3.26550975]
+2024-04-13 16:22:35: loss weights: [0.9984753 0.9987234 1.0028013]
+2024-04-13 16:22:51: *******Train Epoch 58: averaged Loss : 8.868810
+2024-04-13 16:22:52: *******Val Epoch 58: averaged Loss : 5.937227 sep loss : [5.93722674 0.27567717 3.26612271]
+2024-04-13 16:22:52: loss weights: [0.9990082 1.0035313 0.9974606]
+2024-04-13 16:23:10: *******Train Epoch 59: averaged Loss : 8.844718
+2024-04-13 16:23:11: *******Val Epoch 59: averaged Loss : 5.975435 sep loss : [5.97543456 0.2958261  3.26525974]
+2024-04-13 16:23:11: loss weights: [1.0047588  0.99094874 1.0042924 ]
+2024-04-13 16:23:28: *******Train Epoch 60: averaged Loss : 8.866376
+2024-04-13 16:23:29: *******Val Epoch 60: averaged Loss : 5.965189 sep loss : [5.96518861 0.28435808 3.23954819]
+2024-04-13 16:23:29: loss weights: [0.9945476 1.0092909 0.9961615]
+2024-04-13 16:23:45: *******Train Epoch 61: averaged Loss : 8.857984
+2024-04-13 16:23:46: *******Val Epoch 61: averaged Loss : 6.272092 sep loss : [6.27209194 0.27318509 3.26511968]
+2024-04-13 16:23:46: loss weights: [1.003959 0.993975 1.002066]
+2024-04-13 16:24:03: *******Train Epoch 62: averaged Loss : 8.883526
+2024-04-13 16:24:04: *******Val Epoch 62: averaged Loss : 6.010827 sep loss : [6.01082659 0.27200494 3.25446166]
+2024-04-13 16:24:04: loss weights: [1.0012119  0.99669456 1.0020937 ]
+2024-04-13 16:24:20: *******Train Epoch 63: averaged Loss : 8.847782
+2024-04-13 16:24:20: *******Val Epoch 63: averaged Loss : 6.264119 sep loss : [6.26411944 0.26671927 3.26565698]
+2024-04-13 16:24:20: loss weights: [1.0003211  0.99787295 1.0018057 ]
+2024-04-13 16:24:36: *******Train Epoch 64: averaged Loss : 8.853074
+2024-04-13 16:24:37: *******Val Epoch 64: averaged Loss : 5.945832 sep loss : [5.94583159 0.28289859 3.2657816 ]
+2024-04-13 16:24:37: loss weights: [0.99933934 1.0016032  0.9990574 ]
+2024-04-13 16:24:56: *******Train Epoch 65: averaged Loss : 8.792245
+2024-04-13 16:24:57: *******Val Epoch 65: averaged Loss : 5.922403 sep loss : [5.92240348 0.28119494 3.26372612]
+2024-04-13 16:24:57: loss weights: [0.9926741  1.0121894  0.99513656]
+2024-04-13 16:25:15: *******Train Epoch 66: averaged Loss : 8.707177
+2024-04-13 16:25:16: *******Val Epoch 66: averaged Loss : 5.955466 sep loss : [5.95546572 0.27469745 3.26232947]
+2024-04-13 16:25:16: loss weights: [1.0058067  0.98768055 1.0065126 ]
+2024-04-13 16:25:35: *******Train Epoch 67: averaged Loss : 8.787307
+2024-04-13 16:25:36: *******Val Epoch 67: averaged Loss : 5.909322 sep loss : [5.90932186 0.27796666 3.24778858]
+2024-04-13 16:25:36: loss weights: [1.0000701 1.0027232 0.9972067]
+2024-04-13 16:25:54: *******Train Epoch 68: averaged Loss : 8.724718
+2024-04-13 16:25:56: *******Val Epoch 68: averaged Loss : 5.869893 sep loss : [5.86989252 0.26590458 3.17251572]
+2024-04-13 16:25:56: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:25:56: loss weights: [1.0046183  0.99225086 1.0031309 ]
+2024-04-13 16:26:14: *******Train Epoch 69: averaged Loss : 8.736693
+2024-04-13 16:26:15: *******Val Epoch 69: averaged Loss : 5.965105 sep loss : [5.96510484 0.30313441 3.18989783]
+2024-04-13 16:26:15: loss weights: [0.9994055 0.9993621 1.0012324]
+2024-04-13 16:26:34: *******Train Epoch 70: averaged Loss : 8.749477
+2024-04-13 16:26:35: *******Val Epoch 70: averaged Loss : 6.180355 sep loss : [6.18035456 0.29751357 3.2649021 ]
+2024-04-13 16:26:35: loss weights: [0.9970881 1.0030546 0.9998572]
+2024-04-13 16:26:55: *******Train Epoch 71: averaged Loss : 8.729925
+2024-04-13 16:26:56: *******Val Epoch 71: averaged Loss : 6.022435 sep loss : [6.02243486 0.2947222  3.26458262]
+2024-04-13 16:26:56: loss weights: [1.0005499 0.9979633 1.0014868]
+2024-04-13 16:27:15: *******Train Epoch 72: averaged Loss : 8.743696
+2024-04-13 16:27:16: *******Val Epoch 72: averaged Loss : 5.977700 sep loss : [5.97770012 0.29757684 3.26475771]
+2024-04-13 16:27:16: loss weights: [1.0015653  0.99653137 1.0019033 ]
+2024-04-13 16:27:36: *******Train Epoch 73: averaged Loss : 8.734979
+2024-04-13 16:27:37: *******Val Epoch 73: averaged Loss : 5.983307 sep loss : [5.98330659 0.27946543 3.26485683]
+2024-04-13 16:27:37: loss weights: [0.99701643 1.0051594  0.99782443]
+2024-04-13 16:27:56: *******Train Epoch 74: averaged Loss : 8.694481
+2024-04-13 16:27:57: *******Val Epoch 74: averaged Loss : 6.009001 sep loss : [6.00900111 0.3033661  3.264604  ]
+2024-04-13 16:27:57: loss weights: [1.0018803 0.9960823 1.0020373]
+2024-04-13 16:28:17: *******Train Epoch 75: averaged Loss : 8.727280
+2024-04-13 16:28:18: *******Val Epoch 75: averaged Loss : 6.091141 sep loss : [6.09114064 0.30311385 3.26440892]
+2024-04-13 16:28:18: loss weights: [1.0032603  0.99366593 1.0030739 ]
+2024-04-13 16:28:37: *******Train Epoch 76: averaged Loss : 8.752804
+2024-04-13 16:28:38: *******Val Epoch 76: averaged Loss : 5.913922 sep loss : [5.91392231 0.29700901 3.26480644]
+2024-04-13 16:28:38: loss weights: [0.99763966 1.0053363  0.9970238 ]
+2024-04-13 16:28:57: *******Train Epoch 77: averaged Loss : 8.696757
+2024-04-13 16:28:58: *******Val Epoch 77: averaged Loss : 6.050909 sep loss : [6.05090919 0.26922369 3.26487437]
+2024-04-13 16:28:58: loss weights: [1.0004959 0.9985373 1.0009668]
+2024-04-13 16:29:16: *******Train Epoch 78: averaged Loss : 8.692018
+2024-04-13 16:29:17: *******Val Epoch 78: averaged Loss : 5.969717 sep loss : [5.96971703 0.28562645 3.26527284]
+2024-04-13 16:29:17: loss weights: [1.0036573 0.9915736 1.0047693]
+2024-04-13 16:29:36: *******Train Epoch 79: averaged Loss : 8.692223
+2024-04-13 16:29:37: *******Val Epoch 79: averaged Loss : 5.933502 sep loss : [5.9335022  0.28224758 3.26594665]
+2024-04-13 16:29:37: loss weights: [0.9984525 1.0016873 0.9998601]
+2024-04-13 16:29:56: *******Train Epoch 80: averaged Loss : 8.654812
+2024-04-13 16:29:57: *******Val Epoch 80: averaged Loss : 5.952221 sep loss : [5.95222073 0.29229951 3.26473271]
+2024-04-13 16:29:57: loss weights: [0.9994738 1.0011748 0.9993512]
+2024-04-13 16:30:15: *******Train Epoch 81: averaged Loss : 8.646966
+2024-04-13 16:30:16: *******Val Epoch 81: averaged Loss : 5.909724 sep loss : [5.90972446 0.30783373 3.26485243]
+2024-04-13 16:30:16: loss weights: [0.9991275 1.0011265 0.9997463]
+2024-04-13 16:30:35: *******Train Epoch 82: averaged Loss : 8.598859
+2024-04-13 16:30:36: *******Val Epoch 82: averaged Loss : 5.921541 sep loss : [5.92154143 0.28867142 3.26369907]
+2024-04-13 16:30:36: loss weights: [1.0023687  0.99340606 1.004225  ]
+2024-04-13 16:30:54: *******Train Epoch 83: averaged Loss : 8.660637
+2024-04-13 16:30:55: *******Val Epoch 83: averaged Loss : 5.855658 sep loss : [5.85565809 0.3087965  3.26484867]
+2024-04-13 16:30:55: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:30:55: loss weights: [0.99599165 1.0091367  0.99487174]
+2024-04-13 16:31:14: *******Train Epoch 84: averaged Loss : 8.628208
+2024-04-13 16:31:15: *******Val Epoch 84: averaged Loss : 5.900725 sep loss : [5.90072533 0.30053319 3.26496836]
+2024-04-13 16:31:15: loss weights: [1.0016727  0.99808276 1.0002443 ]
+2024-04-13 16:31:34: *******Train Epoch 85: averaged Loss : 8.631471
+2024-04-13 16:31:36: *******Val Epoch 85: averaged Loss : 5.945998 sep loss : [5.94599834 0.30353241 3.26520553]
+2024-04-13 16:31:36: loss weights: [1.0012839  0.99559045 1.0031255 ]
+2024-04-13 16:31:56: *******Train Epoch 86: averaged Loss : 8.662916
+2024-04-13 16:31:57: *******Val Epoch 86: averaged Loss : 5.922753 sep loss : [5.92275308 0.2977814  3.26537371]
+2024-04-13 16:31:57: loss weights: [0.991238   1.0179511  0.99081063]
+2024-04-13 16:32:17: *******Train Epoch 87: averaged Loss : 8.522766
+2024-04-13 16:32:19: *******Val Epoch 87: averaged Loss : 5.887591 sep loss : [5.88759147 0.28947462 3.26467252]
+2024-04-13 16:32:19: loss weights: [1.0078236  0.98272294 1.0094535 ]
+2024-04-13 16:32:38: *******Train Epoch 88: averaged Loss : 8.685523
+2024-04-13 16:32:39: *******Val Epoch 88: averaged Loss : 6.004659 sep loss : [6.00465859 0.29760973 3.26407416]
+2024-04-13 16:32:39: loss weights: [1.0025737 0.9959595 1.0014666]
+2024-04-13 16:32:58: *******Train Epoch 89: averaged Loss : 8.597076
+2024-04-13 16:32:59: *******Val Epoch 89: averaged Loss : 5.867088 sep loss : [5.86708751 0.28855594 3.26438438]
+2024-04-13 16:32:59: loss weights: [0.99615973 1.0057749  0.9980655 ]
+2024-04-13 16:33:19: *******Train Epoch 90: averaged Loss : 8.579944
+2024-04-13 16:33:20: *******Val Epoch 90: averaged Loss : 6.031732 sep loss : [6.03173153 0.28969197 3.26459512]
+2024-04-13 16:33:20: loss weights: [0.9966303  1.0076761  0.99569356]
+2024-04-13 16:33:40: *******Train Epoch 91: averaged Loss : 8.572987
+2024-04-13 16:33:41: *******Val Epoch 91: averaged Loss : 5.908449 sep loss : [5.9084487  0.31005278 3.2643912 ]
+2024-04-13 16:33:41: loss weights: [1.0062118 0.9881022 1.005686 ]
+2024-04-13 16:34:00: *******Train Epoch 92: averaged Loss : 8.636715
+2024-04-13 16:34:01: *******Val Epoch 92: averaged Loss : 5.979029 sep loss : [5.97902885 0.28276753 3.26437492]
+2024-04-13 16:34:01: loss weights: [0.9996885 0.9998404 1.0004711]
+2024-04-13 16:34:20: *******Train Epoch 93: averaged Loss : 8.579524
+2024-04-13 16:34:21: *******Val Epoch 93: averaged Loss : 5.886337 sep loss : [5.88633706 0.29458087 3.2650233 ]
+2024-04-13 16:34:21: loss weights: [1.0024735 0.9947972 1.0027292]
+2024-04-13 16:34:39: *******Train Epoch 94: averaged Loss : 8.594880
+2024-04-13 16:34:40: *******Val Epoch 94: averaged Loss : 5.955529 sep loss : [5.95552888 0.29157667 3.26344356]
+2024-04-13 16:34:40: loss weights: [1.0012575  0.99732184 1.0014207 ]
+2024-04-13 16:34:59: *******Train Epoch 95: averaged Loss : 8.564830
+2024-04-13 16:35:00: *******Val Epoch 95: averaged Loss : 6.010964 sep loss : [6.01096417 0.29036899 3.25639486]
+2024-04-13 16:35:00: loss weights: [0.99328154 1.0123405  0.994378  ]
+2024-04-13 16:35:18: *******Train Epoch 96: averaged Loss : 8.497600
+2024-04-13 16:35:19: *******Val Epoch 96: averaged Loss : 5.945478 sep loss : [5.9454784  0.31270187 3.26289474]
+2024-04-13 16:35:19: loss weights: [0.9988862  1.0018353  0.99927855]
+2024-04-13 16:35:38: *******Train Epoch 97: averaged Loss : 8.540992
+2024-04-13 16:35:39: *******Val Epoch 97: averaged Loss : 5.878855 sep loss : [5.87885486 0.28838437 3.24780563]
+2024-04-13 16:35:39: loss weights: [1.004147   0.99259204 1.0032609 ]
+2024-04-13 16:35:57: *******Train Epoch 98: averaged Loss : 8.560570
+2024-04-13 16:35:58: *******Val Epoch 98: averaged Loss : 5.874054 sep loss : [5.87405373 0.28376475 3.27115859]
+2024-04-13 16:35:58: loss weights: [0.9985014 1.0032631 0.9982356]
+2024-04-13 16:36:17: *******Train Epoch 99: averaged Loss : 8.517293
+2024-04-13 16:36:18: *******Val Epoch 99: averaged Loss : 5.906354 sep loss : [5.90635377 0.29420621 3.25772716]
+2024-04-13 16:36:18: loss weights: [1.0014164 0.995607  1.0029764]
+2024-04-13 16:36:37: *******Train Epoch 100: averaged Loss : 8.583236
+2024-04-13 16:36:38: *******Val Epoch 100: averaged Loss : 6.009727 sep loss : [6.00972726 0.29734817 3.26578911]
+2024-04-13 16:36:38: loss weights: [0.9952217  1.0104111  0.99436736]
+2024-04-13 16:36:57: *******Train Epoch 101: averaged Loss : 8.475521
+2024-04-13 16:36:58: *******Val Epoch 101: averaged Loss : 5.859304 sep loss : [5.85930428 0.29690547 3.26457328]
+2024-04-13 16:36:58: loss weights: [1.0019736 0.9940022 1.0040241]
+2024-04-13 16:37:17: *******Train Epoch 102: averaged Loss : 8.520435
+2024-04-13 16:37:18: *******Val Epoch 102: averaged Loss : 5.829029 sep loss : [5.82902857 0.28552133 3.2648046 ]
+2024-04-13 16:37:18: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:37:18: loss weights: [1.0010667 0.9970771 1.0018562]
+2024-04-13 16:37:37: *******Train Epoch 103: averaged Loss : 8.505688
+2024-04-13 16:37:38: *******Val Epoch 103: averaged Loss : 5.841841 sep loss : [5.84184104 0.2838725  3.26470265]
+2024-04-13 16:37:38: loss weights: [1.0036212 0.9928615 1.0035172]
+2024-04-13 16:37:57: *******Train Epoch 104: averaged Loss : 8.523103
+2024-04-13 16:37:58: *******Val Epoch 104: averaged Loss : 5.886929 sep loss : [5.88692929 0.27515232 3.26462052]
+2024-04-13 16:37:58: loss weights: [0.9995626 1.0007892 0.9996481]
+2024-04-13 16:38:17: *******Train Epoch 105: averaged Loss : 8.507620
+2024-04-13 16:38:18: *******Val Epoch 105: averaged Loss : 5.878983 sep loss : [5.8789832  0.28337689 3.26453922]
+2024-04-13 16:38:18: loss weights: [1.0015252 0.997846  1.0006288]
+2024-04-13 16:38:37: *******Train Epoch 106: averaged Loss : 8.487864
+2024-04-13 16:38:38: *******Val Epoch 106: averaged Loss : 5.873171 sep loss : [5.87317122 0.30821317 3.26465801]
+2024-04-13 16:38:38: loss weights: [0.9967559 1.0047773 0.9984666]
+2024-04-13 16:38:56: *******Train Epoch 107: averaged Loss : 8.462987
+2024-04-13 16:38:57: *******Val Epoch 107: averaged Loss : 5.924235 sep loss : [5.92423483 0.3045925  3.26440441]
+2024-04-13 16:38:57: loss weights: [0.9970732 1.0060194 0.9969075]
+2024-04-13 16:39:16: *******Train Epoch 108: averaged Loss : 8.462896
+2024-04-13 16:39:17: *******Val Epoch 108: averaged Loss : 5.947247 sep loss : [5.94724703 0.35828818 3.26444694]
+2024-04-13 16:39:17: loss weights: [1.0019468  0.99622107 1.0018325 ]
+2024-04-13 16:39:35: *******Train Epoch 109: averaged Loss : 8.499163
+2024-04-13 16:39:36: *******Val Epoch 109: averaged Loss : 5.870466 sep loss : [5.87046576 0.30161081 3.2620593 ]
+2024-04-13 16:39:36: loss weights: [1.00013   0.9997947 1.0000751]
+2024-04-13 16:39:55: *******Train Epoch 110: averaged Loss : 8.453578
+2024-04-13 16:39:56: *******Val Epoch 110: averaged Loss : 5.864320 sep loss : [5.86432002 0.29151029 3.26191422]
+2024-04-13 16:39:56: loss weights: [1.002648  0.9935791 1.0037726]
+2024-04-13 16:40:14: *******Train Epoch 111: averaged Loss : 8.464964
+2024-04-13 16:40:15: *******Val Epoch 111: averaged Loss : 5.867152 sep loss : [5.86715185 0.30018161 3.26455402]
+2024-04-13 16:40:15: loss weights: [0.9983566 1.0023376 0.9993058]
+2024-04-13 16:40:34: *******Train Epoch 112: averaged Loss : 8.464163
+2024-04-13 16:40:35: *******Val Epoch 112: averaged Loss : 5.854244 sep loss : [5.85424412 0.28907833 3.26586523]
+2024-04-13 16:40:35: loss weights: [0.99649626 1.0084599  0.99504375]
+2024-04-13 16:40:53: *******Train Epoch 113: averaged Loss : 8.411957
+2024-04-13 16:40:54: *******Val Epoch 113: averaged Loss : 5.906144 sep loss : [5.90614414 0.31592794 3.26491022]
+2024-04-13 16:40:54: loss weights: [1.0054399  0.98804796 1.006512  ]
+2024-04-13 16:41:13: *******Train Epoch 114: averaged Loss : 8.504169
+2024-04-13 16:41:14: *******Val Epoch 114: averaged Loss : 5.895984 sep loss : [5.89598362 0.31208632 3.26399418]
+2024-04-13 16:41:14: loss weights: [0.9959141 1.0085201 0.9955658]
+2024-04-13 16:41:33: *******Train Epoch 115: averaged Loss : 8.403809
+2024-04-13 16:41:34: *******Val Epoch 115: averaged Loss : 5.955499 sep loss : [5.95549881 0.31636848 3.26513962]
+2024-04-13 16:41:34: loss weights: [1.0025445 0.9940927 1.0033628]
+2024-04-13 16:41:53: *******Train Epoch 116: averaged Loss : 8.491483
+2024-04-13 16:41:54: *******Val Epoch 116: averaged Loss : 5.871846 sep loss : [5.87184646 0.31351546 3.26483715]
+2024-04-13 16:41:54: loss weights: [1.002974  0.9956589 1.0013671]
+2024-04-13 16:42:12: *******Train Epoch 117: averaged Loss : 8.481052
+2024-04-13 16:42:13: *******Val Epoch 117: averaged Loss : 5.855052 sep loss : [5.85505221 0.3021526  3.26432347]
+2024-04-13 16:42:13: loss weights: [0.9964176 1.0066282 0.9969542]
+2024-04-13 16:42:32: *******Train Epoch 118: averaged Loss : 8.405360
+2024-04-13 16:42:33: *******Val Epoch 118: averaged Loss : 5.936645 sep loss : [5.93664536 0.31898173 3.26425699]
+2024-04-13 16:42:33: loss weights: [0.9992986  0.99998814 1.0007133 ]
+2024-04-13 16:42:52: *******Train Epoch 119: averaged Loss : 8.451938
+2024-04-13 16:42:53: *******Val Epoch 119: averaged Loss : 5.920087 sep loss : [5.92008679 0.31038492 3.26426972]
+2024-04-13 16:42:53: loss weights: [1.0021362 0.997042  1.0008217]
+2024-04-13 16:43:12: *******Train Epoch 120: averaged Loss : 8.445488
+2024-04-13 16:43:13: *******Val Epoch 120: averaged Loss : 5.903091 sep loss : [5.90309081 0.32109263 3.26427106]
+2024-04-13 16:43:13: loss weights: [1.0034469 0.9922538 1.0042993]
+2024-04-13 16:43:32: *******Train Epoch 121: averaged Loss : 8.454697
+2024-04-13 16:43:33: *******Val Epoch 121: averaged Loss : 5.903091 sep loss : [5.90309139 0.31480686 3.26433125]
+2024-04-13 16:43:33: loss weights: [0.99374074 1.0116733  0.9945858 ]
+2024-04-13 16:43:51: *******Train Epoch 122: averaged Loss : 8.382761
+2024-04-13 16:43:53: *******Val Epoch 122: averaged Loss : 5.875949 sep loss : [5.87594883 0.32812385 3.26223903]
+2024-04-13 16:43:53: loss weights: [1.0016983  0.99701446 1.001287  ]
+2024-04-13 16:44:11: *******Train Epoch 123: averaged Loss : 8.419306
+2024-04-13 16:44:12: *******Val Epoch 123: averaged Loss : 5.920316 sep loss : [5.92031648 0.3207706  3.26742365]
+2024-04-13 16:44:12: loss weights: [1.0035785 0.9921062 1.0043153]
+2024-04-13 16:44:30: *******Train Epoch 124: averaged Loss : 8.351225
+2024-04-13 16:44:31: *******Val Epoch 124: averaged Loss : 5.852475 sep loss : [5.85247473 0.31725692 3.26304537]
+2024-04-13 16:44:31: loss weights: [1.0021144  0.99180746 1.0060782 ]
+2024-04-13 16:44:50: *******Train Epoch 125: averaged Loss : 8.326499
+2024-04-13 16:44:51: *******Val Epoch 125: averaged Loss : 5.943378 sep loss : [5.94337838 0.31573779 3.26542376]
+2024-04-13 16:44:51: loss weights: [0.9978852 1.0030024 0.9991123]
+2024-04-13 16:45:09: *******Train Epoch 126: averaged Loss : 8.276369
+2024-04-13 16:45:10: *******Val Epoch 126: averaged Loss : 5.860911 sep loss : [5.86091111 0.31909667 3.26414312]
+2024-04-13 16:45:10: loss weights: [1.0014279 0.9966822 1.00189  ]
+2024-04-13 16:45:29: *******Train Epoch 127: averaged Loss : 8.290338
+2024-04-13 16:45:30: *******Val Epoch 127: averaged Loss : 5.848985 sep loss : [5.84898531 0.31230661 3.26493707]
+2024-04-13 16:45:30: loss weights: [0.99912405 1.0012183  0.99965763]
+2024-04-13 16:45:48: *******Train Epoch 128: averaged Loss : 8.278952
+2024-04-13 16:45:49: *******Val Epoch 128: averaged Loss : 5.846524 sep loss : [5.84652442 0.31275684 3.26472884]
+2024-04-13 16:45:49: loss weights: [1.0005735  0.99916315 1.0002633 ]
+2024-04-13 16:46:08: *******Train Epoch 129: averaged Loss : 8.270101
+2024-04-13 16:46:09: *******Val Epoch 129: averaged Loss : 5.809408 sep loss : [5.80940756 0.30608993 3.26459259]
+2024-04-13 16:46:09: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:46:09: loss weights: [1.0027031 0.993978  1.0033189]
+2024-04-13 16:46:27: *******Train Epoch 130: averaged Loss : 8.278081
+2024-04-13 16:46:28: *******Val Epoch 130: averaged Loss : 5.872785 sep loss : [5.87278509 0.31517628 3.26467861]
+2024-04-13 16:46:28: loss weights: [0.99802226 1.0032158  0.9987618 ]
+2024-04-13 16:46:47: *******Train Epoch 131: averaged Loss : 8.246405
+2024-04-13 16:46:48: *******Val Epoch 131: averaged Loss : 5.822586 sep loss : [5.82258621 0.3272407  3.26455762]
+2024-04-13 16:46:48: loss weights: [0.9995612  1.001024   0.99941486]
+2024-04-13 16:47:07: *******Train Epoch 132: averaged Loss : 8.242441
+2024-04-13 16:47:08: *******Val Epoch 132: averaged Loss : 5.818220 sep loss : [5.8182197  0.30708561 3.26439614]
+2024-04-13 16:47:08: loss weights: [0.99940073 1.000604   0.9999953 ]
+2024-04-13 16:47:27: *******Train Epoch 133: averaged Loss : 8.246081
+2024-04-13 16:47:28: *******Val Epoch 133: averaged Loss : 5.836545 sep loss : [5.8365447  0.32011803 3.26392044]
+2024-04-13 16:47:28: loss weights: [1.0017146 0.9968542 1.0014311]
+2024-04-13 16:47:47: *******Train Epoch 134: averaged Loss : 8.250489
+2024-04-13 16:47:48: *******Val Epoch 134: averaged Loss : 5.817771 sep loss : [5.81777114 0.31332188 3.26487031]
+2024-04-13 16:47:48: loss weights: [0.99887776 1.0017251  0.99939704]
+2024-04-13 16:48:07: *******Train Epoch 135: averaged Loss : 8.220532
+2024-04-13 16:48:08: *******Val Epoch 135: averaged Loss : 5.811625 sep loss : [5.81162526 0.31947572 3.26490732]
+2024-04-13 16:48:08: loss weights: [0.9997332  0.99984473 1.000422  ]
+2024-04-13 16:48:27: *******Train Epoch 136: averaged Loss : 8.239322
+2024-04-13 16:48:28: *******Val Epoch 136: averaged Loss : 5.844803 sep loss : [5.844803   0.31456551 3.26418444]
+2024-04-13 16:48:28: loss weights: [1.0007776 0.999151  1.0000714]
+2024-04-13 16:48:47: *******Train Epoch 137: averaged Loss : 8.235236
+2024-04-13 16:48:48: *******Val Epoch 137: averaged Loss : 5.838113 sep loss : [5.83811261 0.30342634 3.2640457 ]
+2024-04-13 16:48:48: loss weights: [1.0001924 0.9993265 1.000481 ]
+2024-04-13 16:49:06: *******Train Epoch 138: averaged Loss : 8.227576
+2024-04-13 16:49:07: *******Val Epoch 138: averaged Loss : 5.866802 sep loss : [5.86680189 0.31662638 3.26091876]
+2024-04-13 16:49:07: loss weights: [0.9999844 0.9996306 1.000385 ]
+2024-04-13 16:49:26: *******Train Epoch 139: averaged Loss : 8.213131
+2024-04-13 16:49:27: *******Val Epoch 139: averaged Loss : 5.830966 sep loss : [5.83096618 0.32906396 3.26498444]
+2024-04-13 16:49:27: loss weights: [1.0005257 0.9984379 1.0010364]
+2024-04-13 16:49:45: *******Train Epoch 140: averaged Loss : 8.209185
+2024-04-13 16:49:46: *******Val Epoch 140: averaged Loss : 5.840640 sep loss : [5.84064047 0.32248165 3.26417244]
+2024-04-13 16:49:46: loss weights: [0.99928075 1.0009202  0.99979913]
+2024-04-13 16:50:04: *******Train Epoch 141: averaged Loss : 8.210445
+2024-04-13 16:50:06: *******Val Epoch 141: averaged Loss : 5.862607 sep loss : [5.86260667 0.30607868 3.25684089]
+2024-04-13 16:50:06: loss weights: [1.0004476  0.99962336 0.99992895]
+2024-04-13 16:50:24: *******Train Epoch 142: averaged Loss : 8.253643
+2024-04-13 16:50:25: *******Val Epoch 142: averaged Loss : 5.852484 sep loss : [5.85248423 0.30824392 3.26341992]
+2024-04-13 16:50:25: loss weights: [1.0004072 1.0013214 0.9982711]
+2024-04-13 16:50:43: *******Train Epoch 143: averaged Loss : 8.220194
+2024-04-13 16:50:44: *******Val Epoch 143: averaged Loss : 5.821295 sep loss : [5.82129508 0.31708031 3.25250561]
+2024-04-13 16:50:44: loss weights: [0.9998002  0.99886787 1.001332  ]
+2024-04-13 16:51:03: *******Train Epoch 144: averaged Loss : 8.214153
+2024-04-13 16:51:04: *******Val Epoch 144: averaged Loss : 5.856953 sep loss : [5.85695267 0.31694192 3.25659636]
+2024-04-13 16:51:04: loss weights: [0.99969196 0.9999089  1.0003991 ]
+2024-04-13 16:51:22: *******Train Epoch 145: averaged Loss : 8.218720
+2024-04-13 16:51:23: *******Val Epoch 145: averaged Loss : 5.817091 sep loss : [5.81709121 0.31331175 3.24904605]
+2024-04-13 16:51:23: loss weights: [0.9981111  1.004616   0.99727297]
+2024-04-13 16:51:42: *******Train Epoch 146: averaged Loss : 8.199712
+2024-04-13 16:51:43: *******Val Epoch 146: averaged Loss : 5.810295 sep loss : [5.81029525 0.33594315 3.23659983]
+2024-04-13 16:51:43: loss weights: [1.000491  0.9986422 1.0008669]
+2024-04-13 16:52:02: *******Train Epoch 147: averaged Loss : 8.182918
+2024-04-13 16:52:03: *******Val Epoch 147: averaged Loss : 5.828227 sep loss : [5.82822741 0.31634414 3.26155835]
+2024-04-13 16:52:03: loss weights: [1.0009078 0.9970338 1.0020585]
+2024-04-13 16:52:22: *******Train Epoch 148: averaged Loss : 8.211824
+2024-04-13 16:52:23: *******Val Epoch 148: averaged Loss : 5.815583 sep loss : [5.81558294 0.33001548 3.26511156]
+2024-04-13 16:52:23: loss weights: [0.9986696  1.0028062  0.99852407]
+2024-04-13 16:52:42: *******Train Epoch 149: averaged Loss : 8.186698
+2024-04-13 16:52:43: *******Val Epoch 149: averaged Loss : 5.818387 sep loss : [5.81838707 0.32707115 3.25986681]
+2024-04-13 16:52:43: loss weights: [1.0012058 0.9982812 1.0005131]
+2024-04-13 16:53:02: *******Train Epoch 150: averaged Loss : 8.213870
+2024-04-13 16:53:03: *******Val Epoch 150: averaged Loss : 5.822705 sep loss : [5.82270516 0.3325304  3.26502008]
+2024-04-13 16:53:03: loss weights: [0.9989775  1.0016147  0.99940777]
+2024-04-13 16:53:22: *******Train Epoch 151: averaged Loss : 8.138544
+2024-04-13 16:53:23: *******Val Epoch 151: averaged Loss : 5.801421 sep loss : [5.80142102 0.32399473 3.2651221 ]
+2024-04-13 16:53:23: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:53:23: loss weights: [1.0014457  0.99401474 1.0045397 ]
+2024-04-13 16:53:42: *******Train Epoch 152: averaged Loss : 8.160717
+2024-04-13 16:53:43: *******Val Epoch 152: averaged Loss : 5.810067 sep loss : [5.81006732 0.32012814 3.26512935]
+2024-04-13 16:53:43: loss weights: [1.0007839 0.9982573 1.0009589]
+2024-04-13 16:54:01: *******Train Epoch 153: averaged Loss : 8.133718
+2024-04-13 16:54:02: *******Val Epoch 153: averaged Loss : 5.828760 sep loss : [5.82876    0.32103405 3.26482322]
+2024-04-13 16:54:02: loss weights: [0.99971795 0.99990726 1.0003748 ]
+2024-04-13 16:54:21: *******Train Epoch 154: averaged Loss : 8.134337
+2024-04-13 16:54:22: *******Val Epoch 154: averaged Loss : 5.819523 sep loss : [5.81952315 0.31885589 3.26438924]
+2024-04-13 16:54:22: loss weights: [1.0003573  0.9997285  0.99991417]
+2024-04-13 16:54:40: *******Train Epoch 155: averaged Loss : 8.122856
+2024-04-13 16:54:41: *******Val Epoch 155: averaged Loss : 5.810583 sep loss : [5.81058308 0.32064782 3.26477196]
+2024-04-13 16:54:41: loss weights: [0.99935734 1.0005978  1.000045  ]
+2024-04-13 16:54:59: *******Train Epoch 156: averaged Loss : 8.126891
+2024-04-13 16:55:00: *******Val Epoch 156: averaged Loss : 5.801407 sep loss : [5.8014066  0.33062215 3.26383807]
+2024-04-13 16:55:00: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:55:01: loss weights: [1.000719  0.9991673 1.0001137]
+2024-04-13 16:55:19: *******Train Epoch 157: averaged Loss : 8.115714
+2024-04-13 16:55:20: *******Val Epoch 157: averaged Loss : 5.832327 sep loss : [5.8323266  0.32200584 3.26470197]
+2024-04-13 16:55:20: loss weights: [0.9994273 1.0001378 1.000435 ]
+2024-04-13 16:55:38: *******Train Epoch 158: averaged Loss : 8.107038
+2024-04-13 16:55:39: *******Val Epoch 158: averaged Loss : 5.811445 sep loss : [5.81144542 0.3204257  3.2640923 ]
+2024-04-13 16:55:39: loss weights: [0.99962515 1.0005822  0.9997927 ]
+2024-04-13 16:55:58: *******Train Epoch 159: averaged Loss : 8.108059
+2024-04-13 16:55:59: *******Val Epoch 159: averaged Loss : 5.801043 sep loss : [5.80104347 0.32609921 3.26488079]
+2024-04-13 16:55:59: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:55:59: loss weights: [0.9997791  1.0004885  0.99973226]
+2024-04-13 16:56:17: *******Train Epoch 160: averaged Loss : 8.122954
+2024-04-13 16:56:18: *******Val Epoch 160: averaged Loss : 5.812578 sep loss : [5.81257761 0.32335579 3.26451786]
+2024-04-13 16:56:18: loss weights: [1.001378  0.9978169 1.0008049]
+2024-04-13 16:56:37: *******Train Epoch 161: averaged Loss : 8.132142
+2024-04-13 16:56:38: *******Val Epoch 161: averaged Loss : 5.822013 sep loss : [5.82201283 0.31684163 3.26041183]
+2024-04-13 16:56:38: loss weights: [0.99847054 1.0030086  0.99852073]
+2024-04-13 16:56:57: *******Train Epoch 162: averaged Loss : 8.103071
+2024-04-13 16:56:58: *******Val Epoch 162: averaged Loss : 5.798877 sep loss : [5.7988775  0.32737943 3.26516505]
+2024-04-13 16:56:58: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:56:58: loss weights: [1.0007856  0.99821746 1.0009971 ]
+2024-04-13 16:57:17: *******Train Epoch 163: averaged Loss : 8.109666
+2024-04-13 16:57:18: *******Val Epoch 163: averaged Loss : 5.792405 sep loss : [5.79240524 0.32617095 3.26466368]
+2024-04-13 16:57:18: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 16:57:18: loss weights: [0.99946463 1.0002644  1.0002711 ]
+2024-04-13 16:57:37: *******Train Epoch 164: averaged Loss : 8.109796
+2024-04-13 16:57:38: *******Val Epoch 164: averaged Loss : 5.821397 sep loss : [5.82139701 0.32069106 3.26450152]
+2024-04-13 16:57:38: loss weights: [1.0008711  0.99872893 1.0004    ]
+2024-04-13 16:57:57: *******Train Epoch 165: averaged Loss : 8.103009
+2024-04-13 16:57:58: *******Val Epoch 165: averaged Loss : 5.814240 sep loss : [5.81423961 0.31850892 3.26453724]
+2024-04-13 16:57:58: loss weights: [0.9992467 1.0007019 1.0000515]
+2024-04-13 16:58:17: *******Train Epoch 166: averaged Loss : 8.089377
+2024-04-13 16:58:18: *******Val Epoch 166: averaged Loss : 5.805653 sep loss : [5.8056535  0.31666138 3.2642514 ]
+2024-04-13 16:58:18: loss weights: [1.0004382 0.9989278 1.000634 ]
+2024-04-13 16:58:37: *******Train Epoch 167: averaged Loss : 8.103853
+2024-04-13 16:58:38: *******Val Epoch 167: averaged Loss : 5.805711 sep loss : [5.80571127 0.33481032 3.26443716]
+2024-04-13 16:58:38: loss weights: [0.9994097 1.0015644 0.9990258]
+2024-04-13 16:58:56: *******Train Epoch 168: averaged Loss : 8.099810
+2024-04-13 16:58:57: *******Val Epoch 168: averaged Loss : 5.806825 sep loss : [5.80682545 0.32595986 3.2644739 ]
+2024-04-13 16:58:57: loss weights: [1.0000069  1.0002218  0.99977124]
+2024-04-13 16:59:16: *******Train Epoch 169: averaged Loss : 8.101134
+2024-04-13 16:59:17: *******Val Epoch 169: averaged Loss : 5.807417 sep loss : [5.80741681 0.32509692 3.26458513]
+2024-04-13 16:59:17: loss weights: [1.0001068 0.9995234 1.0003698]
+2024-04-13 16:59:35: *******Train Epoch 170: averaged Loss : 8.108176
+2024-04-13 16:59:36: *******Val Epoch 170: averaged Loss : 5.811300 sep loss : [5.81130046 0.33097071 3.26489324]
+2024-04-13 16:59:36: loss weights: [1.0001395  0.99998987 0.9998708 ]
+2024-04-13 16:59:54: *******Train Epoch 171: averaged Loss : 8.099093
+2024-04-13 16:59:55: *******Val Epoch 171: averaged Loss : 5.812772 sep loss : [5.81277172 0.329915   3.26451048]
+2024-04-13 16:59:55: loss weights: [0.9998821 0.9999448 1.0001731]
+2024-04-13 17:00:14: *******Train Epoch 172: averaged Loss : 8.097344
+2024-04-13 17:00:15: *******Val Epoch 172: averaged Loss : 5.808713 sep loss : [5.80871322 0.33009172 3.26439863]
+2024-04-13 17:00:15: loss weights: [0.9998004 1.000229  0.9999707]
+2024-04-13 17:00:33: *******Train Epoch 173: averaged Loss : 8.089709
+2024-04-13 17:00:34: *******Val Epoch 173: averaged Loss : 5.808153 sep loss : [5.8081529  0.33349551 3.26485474]
+2024-04-13 17:00:34: loss weights: [0.99904287 1.001576   0.99938095]
+2024-04-13 17:00:53: *******Train Epoch 174: averaged Loss : 8.093737
+2024-04-13 17:00:54: *******Val Epoch 174: averaged Loss : 5.813124 sep loss : [5.813124   0.33199817 3.26478512]
+2024-04-13 17:00:54: loss weights: [1.0016854 0.9973113 1.0010035]
+2024-04-13 17:01:12: *******Train Epoch 175: averaged Loss : 8.109923
+2024-04-13 17:01:13: *******Val Epoch 175: averaged Loss : 5.841603 sep loss : [5.84160295 0.33425384 3.26483358]
+2024-04-13 17:01:13: loss weights: [0.99948597 1.0008528  0.9996612 ]
+2024-04-13 17:01:32: *******Train Epoch 176: averaged Loss : 8.075379
+2024-04-13 17:01:33: *******Val Epoch 176: averaged Loss : 5.803490 sep loss : [5.80349016 0.33391271 3.26483198]
+2024-04-13 17:01:33: loss weights: [0.99974835 0.9993918  1.00086   ]
+2024-04-13 17:01:51: *******Train Epoch 177: averaged Loss : 8.100762
+2024-04-13 17:01:53: *******Val Epoch 177: averaged Loss : 5.827078 sep loss : [5.82707842 0.3304356  3.26494527]
+2024-04-13 17:01:53: loss weights: [1.0011237  0.99889815 0.99997807]
+2024-04-13 17:02:11: *******Train Epoch 178: averaged Loss : 8.100393
+2024-04-13 17:02:13: *******Val Epoch 178: averaged Loss : 5.796506 sep loss : [5.79650567 0.33457672 3.2647721 ]
+2024-04-13 17:02:13: loss weights: [0.99916613 1.0013497  0.99948394]
+2024-04-13 17:02:31: *******Train Epoch 179: averaged Loss : 8.090377
+2024-04-13 17:02:32: *******Val Epoch 179: averaged Loss : 5.813088 sep loss : [5.81308776 0.33155981 3.264866  ]
+2024-04-13 17:02:32: loss weights: [1.0002141 0.9997325 1.0000535]
+2024-04-13 17:02:51: *******Train Epoch 180: averaged Loss : 8.095495
+2024-04-13 17:02:52: *******Val Epoch 180: averaged Loss : 5.814040 sep loss : [5.81404004 0.33405256 3.26515566]
+2024-04-13 17:02:52: loss weights: [1.0001298  0.99968207 1.0001879 ]
+2024-04-13 17:03:11: *******Train Epoch 181: averaged Loss : 8.092156
+2024-04-13 17:03:12: *******Val Epoch 181: averaged Loss : 5.829277 sep loss : [5.82927664 0.34172791 3.26458434]
+2024-04-13 17:03:12: loss weights: [1.0002886 0.9993645 1.0003468]
+2024-04-13 17:03:31: *******Train Epoch 182: averaged Loss : 8.083066
+2024-04-13 17:03:32: *******Val Epoch 182: averaged Loss : 5.783360 sep loss : [5.78335956 0.33682077 3.26496542]
+2024-04-13 17:03:32: **************Current best model saved to D:\SUSTECH\Research\GNN_for_OOD\Self-Supervised Deconfounding Against Spatio-Temporal Shifts Theory and Modeling\STEVE\STEVE\experiments\NYCBike1/mydata\20240413-160645\best_model.pth
+2024-04-13 17:03:32: loss weights: [0.99873114 1.0017788  0.99948996]
+2024-04-13 17:03:51: *******Train Epoch 183: averaged Loss : 8.083937
+2024-04-13 17:03:52: *******Val Epoch 183: averaged Loss : 5.803514 sep loss : [5.80351353 0.33721427 3.26487567]
+2024-04-13 17:03:52: loss weights: [1.0008297  0.99899626 1.0001739 ]
+2024-04-13 17:04:10: *******Train Epoch 184: averaged Loss : 8.089066
+2024-04-13 17:04:11: *******Val Epoch 184: averaged Loss : 5.834847 sep loss : [5.83484675 0.34508929 3.26463147]
+2024-04-13 17:04:11: loss weights: [0.9998115 0.9999262 1.0002625]
+2024-04-13 17:04:30: *******Train Epoch 185: averaged Loss : 8.083985
+2024-04-13 17:04:31: *******Val Epoch 185: averaged Loss : 5.790236 sep loss : [5.79023603 0.32712566 3.26493161]
+2024-04-13 17:04:31: loss weights: [1.0006058  0.99878585 1.0006086 ]
+2024-04-13 17:04:49: *******Train Epoch 186: averaged Loss : 8.080802
+2024-04-13 17:04:51: *******Val Epoch 186: averaged Loss : 5.811577 sep loss : [5.81157688 0.33015645 3.26457253]
+2024-04-13 17:04:51: loss weights: [0.9993489  1.0009252  0.99972594]
+2024-04-13 17:05:09: *******Train Epoch 187: averaged Loss : 8.080465
+2024-04-13 17:05:10: *******Val Epoch 187: averaged Loss : 5.802110 sep loss : [5.80211023 0.32950105 3.264921  ]
+2024-04-13 17:05:10: loss weights: [1.0002489  0.9998616  0.99988943]
+2024-04-13 17:05:28: *******Train Epoch 188: averaged Loss : 8.069544
+2024-04-13 17:05:29: *******Val Epoch 188: averaged Loss : 5.809845 sep loss : [5.80984548 0.32378978 3.264646  ]
+2024-04-13 17:05:29: loss weights: [0.99977964 0.99971676 1.0005035 ]
+2024-04-13 17:05:48: *******Train Epoch 189: averaged Loss : 8.066995
+2024-04-13 17:05:49: *******Val Epoch 189: averaged Loss : 5.824673 sep loss : [5.82467347 0.33031531 3.26490938]
+2024-04-13 17:05:49: loss weights: [1.0001881  0.99955857 1.0002532 ]
+2024-04-13 17:06:07: *******Train Epoch 190: averaged Loss : 8.083315
+2024-04-13 17:06:08: *******Val Epoch 190: averaged Loss : 5.816830 sep loss : [5.8168303  0.3393701  3.26442621]
+2024-04-13 17:06:08: loss weights: [1.0005933 0.9995749 0.9998318]
+2024-04-13 17:06:27: *******Train Epoch 191: averaged Loss : 8.078245
+2024-04-13 17:06:28: *******Val Epoch 191: averaged Loss : 5.814183 sep loss : [5.81418261 0.34087482 3.26473309]
+2024-04-13 17:06:28: loss weights: [0.99968624 1.0004121  0.9999019 ]
+2024-04-13 17:06:47: *******Train Epoch 192: averaged Loss : 8.075135
+2024-04-13 17:06:48: *******Val Epoch 192: averaged Loss : 5.827884 sep loss : [5.82788357 0.34155415 3.26473559]
+2024-04-13 17:06:48: loss weights: [0.99961305 1.0006617  0.9997253 ]
+2024-04-13 17:07:07: *******Train Epoch 193: averaged Loss : 8.083675
+2024-04-13 17:07:08: *******Val Epoch 193: averaged Loss : 5.825828 sep loss : [5.82582844 0.35017159 3.26449985]
+2024-04-13 17:07:08: loss weights: [0.9997167 1.0009775 0.9993058]
+2024-04-13 17:07:27: *******Train Epoch 194: averaged Loss : 8.067958
+2024-04-13 17:07:28: *******Val Epoch 194: averaged Loss : 5.812220 sep loss : [5.81221999 0.34113881 3.26472834]
+2024-04-13 17:07:28: loss weights: [0.9989438 1.0013472 0.9997089]
+2024-04-13 17:07:47: *******Train Epoch 195: averaged Loss : 8.064555
+2024-04-13 17:07:48: *******Val Epoch 195: averaged Loss : 5.836290 sep loss : [5.83629032 0.34242288 3.26479985]
+2024-04-13 17:07:48: loss weights: [1.0004652 0.9990479 1.0004871]
+2024-04-13 17:08:07: *******Train Epoch 196: averaged Loss : 8.067698
+2024-04-13 17:08:08: *******Val Epoch 196: averaged Loss : 5.792998 sep loss : [5.79299791 0.34310069 3.26495967]
+2024-04-13 17:08:08: loss weights: [0.9999105  0.99986184 1.0002277 ]
+2024-04-13 17:08:27: *******Train Epoch 197: averaged Loss : 8.066298
+2024-04-13 17:08:28: *******Val Epoch 197: averaged Loss : 5.830946 sep loss : [5.83094582 0.34128492 3.26482048]
+2024-04-13 17:08:28: loss weights: [1.000779   0.99862456 1.0005963 ]
+2024-04-13 17:08:47: *******Train Epoch 198: averaged Loss : 8.070484
+2024-04-13 17:08:48: *******Val Epoch 198: averaged Loss : 5.844766 sep loss : [5.84476614 0.34301768 3.26471807]
+2024-04-13 17:08:48: loss weights: [0.9999387 1.0000325 1.0000287]
+2024-04-13 17:09:06: *******Train Epoch 199: averaged Loss : 8.069047
+2024-04-13 17:09:07: *******Val Epoch 199: averaged Loss : 5.812599 sep loss : [5.81259948 0.33019143 3.26437446]
+2024-04-13 17:09:07: loss weights: [1.0003947  0.99939597 1.0002093 ]
+2024-04-13 17:09:26: *******Train Epoch 200: averaged Loss : 8.070176
+2024-04-13 17:09:27: *******Val Epoch 200: averaged Loss : 5.811664 sep loss : [5.81166407 0.34407006 3.26464972]
+2024-04-13 17:09:27: == Training finished.
+Total training time: 62.69 min	best loss: 5.7834	best epoch: 182	
+2024-04-13 17:09:27: == Test results.
+2024-04-13 17:09:27: INFLOW, MAE: 5.77, MAPE: 24.9956%
+2024-04-13 17:09:27: OUTFLOW, MAE: 6.18, MAPE: 25.9193%

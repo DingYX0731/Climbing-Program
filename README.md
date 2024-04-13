@@ -1,5 +1,4 @@
 # Reproduction: Self-Supervised Decoufounding Against Spatio-Temporal Shifts: Theory and Modeling
-================================================
 
 ## Introduction
 

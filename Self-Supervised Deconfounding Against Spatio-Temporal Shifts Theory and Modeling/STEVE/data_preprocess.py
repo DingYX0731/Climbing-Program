@@ -225,11 +225,6 @@ np.save(os.path.join(folder_name, "cluster_labels.npy"), cluster_labels)
 x_workday_tensor, x_holiday_tensor = split_work_holiday(x_tensor, day, hour)
 y_workday_tensor, y_holiday_tensor = split_work_holiday(y_tensor, day, hour)
 
-y_workday_tensor = y_workday_tensor.permute(0, 1, 3, 2)
-y_holiday_tensor = y_holiday_tensor.permute(0, 1, 3, 2)
-x_workday_tensor = x_workday_tensor.permute(0, 1, 3, 2)
-x_holiday_tensor = x_holiday_tensor.permute(0, 1, 3, 2)
-
 total_set = create_temporal_dataloader(x_tensor, y_tensor)
 workday_set = create_temporal_dataloader(x_workday_tensor, y_workday_tensor)
 holiday_set = create_temporal_dataloader(x_holiday_tensor, y_holiday_tensor)

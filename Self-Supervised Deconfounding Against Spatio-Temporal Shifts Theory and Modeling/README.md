@@ -76,32 +76,207 @@ When doing ablation study for a specific variant, just set the corresponding con
 ### Result
 
 #### OOD Evaluation
-* Temporal OOD Forecasting
-
-    | Metric | Workday | Holiday | Total |
-    |--------|---------|---------|-------|
-    | MAE    |  Value  |  Value  | Value |
-    | MAPE   |  Value  |  Value  | Value |
-
-* Spatial OOD Forecasting
-
-    | Metric | c0 | c1 | c2 | Total |
-    |--------|---------|---------|-------|------|
-    | MAE    |  Value  |  Value  | Value | Value |
-    | MAPE   |  Value  |  Value  | Value | Value |
+<table cellpadding=0 cellspacing=0 width=483 style='border-collapse:
+ collapse;table-layout:fixed;width:364pt'>
+ 
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=2 height=38 class=xl66 width=69 style='height:28.0pt;width:52pt' align=center><strong>Metric</strong></td>
+  <td rowspan=2 class=xl66 width=69 style='width:52pt' align=center><strong>Total</strong></td>
+  <td colspan=2 class=xl65 width=138 style='width:104pt' align=center><strong>Temporal</strong></td>
+  <td colspan=3 class=xl65 width=207 style='width:156pt' align=center><strong>Spatial</strong></td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 style='height:14.0pt' align=center>Workday</td>
+  <td align=center>Holiday</td>
+  <td align=center>c0</td>
+  <td align=center>c1</td>
+  <td align=center>c2</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 style='height:14.0pt' align=center>MAE</td>
+  <td class=xl67 align=center>4.80</td>
+  <td align=center>4.76</td>
+  <td align=center>4.78</td>
+  <td align=center>2.72</td>
+  <td align=center>6.48</td>
+  <td align=center>4.57</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 style='height:14.0pt' align=center>MAPE</td>
+  <td align=center>22.64</td>
+  <td align=center>21.23</td>
+  <td class=xl67 align=center>23.40</td>
+  <td align=center>22.82</td>
+  <td align=center>21.73</td>
+  <td align=center>23.14</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+ </tr>
+ <![endif]>
+</table>
 
 #### Ablation Study
-* Temporal OOD Forecasting
 
-    | Metric | STEVE | *w/o cd* | *w/o gr* | *w/o idp* | *w/o sl* | *w/0 ti* | *w/o tl*|
-    |--------|---------|---------|---------|-----------|----------|----------|---------|
-    | MAE    |  Value  |  Value  | Value |Value |Value |Value |Value |
-    | MAPE   |  Value  |  Value  | Value |Value |Value |Value |Value |
-
-
-* Spatial OOD Forecasting
-
-    | Metric | STEVE | *w/o cd* | *w/o gr* | *w/o idp* | *w/o sl* | *w/0 ti* | *w/o tl*|
-    |--------|---------|---------|---------|-----------|----------|----------|---------|
-    | MAE    |  Value  |  Value  | Value |Value |Value |Value |Value |
-    | MAPE   |  Value  |  Value  | Value |Value |Value |Value |Value |
+<table border=0 cellpadding=0 cellspacing=0>
+ <col width=69 span=16 style='width:52pt'>
+ <tr height=19 style='height:14.0pt'>
+  <td colspan=2 height=19 class=xl66 width=138 style='height:14.0pt;width:104pt' align=center><Strong>Ablation</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>STEVE</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o cd</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o gr</strong><span
+  style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o idp</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o sl</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o ti</strong></td>
+  <td colspan=2 class=xl66 width=138 style='width:104pt' align=center><strong>w/o tl</strong></td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td colspan=2 height=19 class=xl66 style='height:14.0pt' align=center><strong>Metric</strong></td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+  <td class=xl66 align=center>MAE</td>
+  <td class=xl66 align=center>MAPE</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=2 height=38 class=xl66 style='height:28.0pt' align=center><strong>Temporal</strong></td>
+  <td class=xl66 align=center>Workday</td>
+  <td class=xl66 align=center>4.76</td>
+  <td class=xl66 align=center>21.23</td>
+  <td class=xl66 align=center>4.64</td>
+  <td class=xl66 align=center>20.34</td>
+  <td class=xl66 align=center>4.57</td>
+  <td class=xl66 align=center>20.48</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl68 align=center>4.80</td>
+  <td class=xl66 align=center>21.33</td>
+  <td class=xl68 align=center>4.70</td>
+  <td class=xl66 align=center>20.89</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl66 style='height:14.0pt' align=center>Holiday</td>
+  <td class=xl66 align=center>4.78</td>
+  <td class=xl68 align=center>23.40</td>
+  <td class=xl66 align=center>4.97</td>
+  <td class=xl66 align=center>22.74</td>
+  <td class=xl66 align=center>4.51</td>
+  <td class=xl66 align=center>22.26</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.66</td>
+  <td class=xl66 align=center>22.85</td>
+  <td class=xl66 align=center>4.72</td>
+  <td class=xl66 align=center>22.87</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=3 height=57 class=xl66 style='height:42.0pt' align=center><strong>Spatial</strong></td>
+  <td class=xl66 align=center>c0</td>
+  <td class=xl66 align=center>2.72</td>
+  <td class=xl66 align=center>22.82</td>
+  <td class=xl66 align=center>2.84</td>
+  <td class=xl66 align=center>23.47</td>
+  <td class=xl66 align=center>2.67</td>
+  <td class=xl66 align=center>22.55</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>2.74</td>
+  <td class=xl68 align=center>22.80</td>
+  <td class=xl66 align=center>2.74</td>
+  <td class=xl66 align=center>22.72</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl66 style='height:14.0pt' align=center>c1</td>
+  <td class=xl66 align=center>6.48</td>
+  <td class=xl66 align=center>21.73</td>
+  <td class=xl66 align=center>6.36</td>
+  <td class=xl66 align=center>20.88</td>
+  <td class=xl66 align=center>6.08</td>
+  <td class=xl66 align=center>20.05</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>6.53</td>
+  <td class=xl66 align=center>21.82</td>
+  <td class=xl66 align=center>6.37</td>
+  <td class=xl68 align=center>21.00</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl66 style='height:14.0pt' align=center>c2</td>
+  <td class=xl66 align=center>4.57</td>
+  <td class=xl66 align=center>23.14</td>
+  <td class=xl68 align=center>4.60</td>
+  <td class=xl66 align=center>23.61</td>
+  <td class=xl66 align=center>4.38</td>
+  <td class=xl66 align=center>22.08</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.59</td>
+  <td class=xl66 align=center>23.07</td>
+  <td class=xl66 align=center>4.56</td>
+  <td class=xl66 align=center>22.88</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td colspan=2 height=19 class=xl65 style='height:14.0pt' align=center><strong>Total</strong></td>
+  <td class=xl69 align=center>4.80</td>
+  <td class=xl65 align=center>22.64</td>
+  <td class=xl66 align=center>4.81</td>
+  <td class=xl66 align=center>22.72</td>
+  <td class=xl66 align=center>4.57</td>
+  <td class=xl66 align=center>21.54</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.82</td>
+  <td class=xl66 align=center>22.63</td>
+  <td class=xl66 align=center>4.76</td>
+  <td class=xl66 align=center>22.26</td>
+  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>0</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=69 style='width:52pt'></td>
+ </tr>
+ <![endif]>
+</table>

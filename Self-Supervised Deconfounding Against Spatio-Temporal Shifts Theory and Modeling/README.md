@@ -8,6 +8,8 @@ The following content aims for reproducing the paper:
 
 `Ji, Jiahao, et al. "Self-Supervised Deconfounding Against Spatio-Temporal Shifts: Theory and Modeling." arXiv preprint arXiv:2311.12472 (2023).`
 
+The source code refers to this [repository](https://github.com/ShotDownDiane/STEVE)
+
 The process of reproduction includes:
 
 * **Data Preprocessing**: Since the data provided by the original repository is not enough for reproducing the OOD case in different scenario, this repository provides a data preprocess script for generating data needed.

@@ -35,7 +35,7 @@ python data_preprocess.py
 |   |----total_test_dataloader.pkl  # test dataloader (total)
 |   |----workday_test_dataloder.pkl # temporal OOD data (workday)
 |   |----holiday_test.pkl           # temporal OOD data (holiday)
-|   |----cluste_labels.npy          # recording the spatial clusters for spatial OOD forecasting
+|   |----cluster_labels.npy          # recording the spatial clusters for spatial OOD forecasting
 
 ```
 For each of the `npz` file, several components are included:
@@ -51,7 +51,7 @@ For each of the `pkl` file, two components are included:
 * `scaler`: used in test phase for data inverse transformation. 
 
 #### OOD evaluation:
-After doing data preprocess, data needed for temporal OOD forecasting and spatial OOD forecasting is obatained. Before evaluation, please train the whole model with full training data. Just set the configuration of `mode` as `train` and other modules like `cd`, `gr`, `sl`, `ti`, `tl` to be `true` from `configs/NYCBike1.yaml`, then simply run the script:
+After doing data preprocess, data needed for temporal OOD forecasting and spatial OOD forecasting is obatained. Before evaluation, please train the whole model with full training data. Just set the configuration of `mode` as `train` and other modules like `cd`, `gr`, `sl`, `ti`, `tl` to be `True` from `configs/NYCBike1.yaml`, then simply run the script:
 ```
 python run.py
 ```
@@ -98,8 +98,8 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td align=center>4.76</td>
   <td align=center>4.78</td>
   <td align=center>2.72</td>
-  <td align=center>6.48</td>
   <td align=center>4.57</td>
+  <td align=center>6.48</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td height=19 style='height:14.0pt' align=center>MAPE</td>
@@ -107,8 +107,8 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td align=center>21.23</td>
   <td class=xl67 align=center>23.40</td>
   <td align=center>22.82</td>
-  <td align=center>21.73</td>
   <td align=center>23.14</td>
+  <td align=center>21.73</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -164,14 +164,14 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td class=xl66 align=center>20.34</td>
   <td class=xl66 align=center>4.57</td>
   <td class=xl66 align=center>20.48</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.90</td>
+  <td class=xl66 align=center>21.30</td>
   <td class=xl68 align=center>4.80</td>
   <td class=xl66 align=center>21.33</td>
   <td class=xl68 align=center>4.70</td>
   <td class=xl66 align=center>20.89</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.80</td>
+  <td class=xl66 align=center>21.52</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td height=19 class=xl66 style='height:14.0pt' align=center>Holiday</td>
@@ -181,14 +181,14 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td class=xl66 align=center>22.74</td>
   <td class=xl66 align=center>4.51</td>
   <td class=xl66 align=center>22.26</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.75</td>
+  <td class=xl66 align=center>23.16</td>
   <td class=xl66 align=center>4.66</td>
   <td class=xl66 align=center>22.85</td>
   <td class=xl66 align=center>4.72</td>
   <td class=xl66 align=center>22.87</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.76</td>
+  <td class=xl66 align=center>23.37</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td rowspan=3 height=57 class=xl66 style='height:42.0pt' align=center><strong>Spatial</strong></td>
@@ -199,48 +199,48 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td class=xl66 align=center>23.47</td>
   <td class=xl66 align=center>2.67</td>
   <td class=xl66 align=center>22.55</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>2.73</td>
+  <td class=xl66 align=center>22.68</td>
   <td class=xl66 align=center>2.74</td>
   <td class=xl68 align=center>22.80</td>
   <td class=xl66 align=center>2.74</td>
   <td class=xl66 align=center>22.72</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>2.75</td>
+  <td class=xl66 align=center>23.08</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td height=19 class=xl66 style='height:14.0pt' align=center>c1</td>
-  <td class=xl66 align=center>6.48</td>
-  <td class=xl66 align=center>21.73</td>
-  <td class=xl66 align=center>6.36</td>
-  <td class=xl66 align=center>20.88</td>
-  <td class=xl66 align=center>6.08</td>
-  <td class=xl66 align=center>20.05</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>6.53</td>
-  <td class=xl66 align=center>21.82</td>
-  <td class=xl66 align=center>6.37</td>
-  <td class=xl68 align=center>21.00</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
- </tr>
- <tr height=19 style='height:14.0pt'>
-  <td height=19 class=xl66 style='height:14.0pt' align=center>c2</td>
   <td class=xl66 align=center>4.57</td>
   <td class=xl66 align=center>23.14</td>
-  <td class=xl68 align=center>4.60</td>
+  <td class=xl66 align=center>4.60</td>
   <td class=xl66 align=center>23.61</td>
   <td class=xl66 align=center>4.38</td>
   <td class=xl66 align=center>22.08</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>4.59</td>
+  <td class=xl66 align=center>4.61</td>
+  <td class=xl66 align=center>22.85</td>
+  <td class=xl66 align=center>4.56</td>
   <td class=xl66 align=center>23.07</td>
   <td class=xl66 align=center>4.56</td>
-  <td class=xl66 align=center>22.88</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl68 align=center>22.88</td>
+  <td class=xl66 align=center>4.62</td>
+  <td class=xl66 align=center>23.48</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl66 style='height:14.0pt' align=center>c2</td>
+  <td class=xl66 align=center>6.48</td>
+  <td class=xl66 align=center>21.73</td>
+  <td class=xl68 align=center>6.36</td>
+  <td class=xl66 align=center>20.88</td>
+  <td class=xl66 align=center>6.08</td>
+  <td class=xl66 align=center>20.05</td>
+  <td class=xl66 align=center>6.51</td>
+  <td class=xl66 align=center>21.66</td>
+  <td class=xl66 align=center>6.53</td>
+  <td class=xl66 align=center>21.82</td>
+  <td class=xl66 align=center>6.37</td>
+  <td class=xl66 align=center>21.00</td>
+  <td class=xl66 align=center>6.47</td>
+  <td class=xl66 align=center>21.89</td>
  </tr>
  <tr height=19 style='height:14.0pt'>
   <td colspan=2 height=19 class=xl65 style='height:14.0pt' align=center><strong>Total</strong></td>
@@ -250,14 +250,14 @@ When doing ablation study for a specific variant, just set the corresponding con
   <td class=xl66 align=center>22.72</td>
   <td class=xl66 align=center>4.57</td>
   <td class=xl66 align=center>21.54</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.82</td>
+  <td class=xl66 align=center>22.44</td>
   <td class=xl66 align=center>4.82</td>
   <td class=xl66 align=center>22.63</td>
   <td class=xl66 align=center>4.76</td>
   <td class=xl66 align=center>22.26</td>
-  <td class=xl66 align=center>0</td>
-  <td class=xl66 align=center>0</td>
+  <td class=xl66 align=center>4.82</td>
+  <td class=xl66 align=center>22.90</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
